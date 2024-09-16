@@ -25,7 +25,7 @@ const Footer = () => {
           </li>
           <li>
             <Link
-              to="/"
+              to="/shop"
               className="text-primary font-primary text-base font-medium pb-12 inline-block"
             >
               Shop

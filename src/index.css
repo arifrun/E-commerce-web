@@ -66,4 +66,31 @@
 .setup img:nth-child(9){ 
     grid-area: 6 / 10 / 8 / 12;
 }  
+ .pagination_product li a{ 
+  @apply py-4 px-6 bg-[#F9F1E7] rounded-xl
+ }  
+ 
+ .pagination_product .selected a{ 
+   @apply bg-brand
+ } 
+
+ .pagination_product .previous{ 
+    @apply hidden
+ } 
+
+  
+  .sideCard::-webkit-scrollbar {
+    @apply w-2
+  }
+  
+  /* Track */
+  .sideCard::-webkit-scrollbar-track {
+   @apply bg-[#F9f1e7] rounded-lg
+  }
+   
+  /* Handle */
+  .sideCard::-webkit-scrollbar-thumb {
+  @apply bg-brand rounded-lg
+  }
+  
 
