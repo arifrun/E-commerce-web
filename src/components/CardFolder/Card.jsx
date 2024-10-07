@@ -13,7 +13,7 @@ const Card = ({ handelSidebar }) => {
           </h2>
           <IoMdClose
             onClick={() => handelSidebar(false)}
-            className=" text-secodary cursor-pointer"
+            className=" text-secodary text-2xl cursor-pointer" 
           />
         </div>
         <div className="sideCard h-[480px] overflow-y-scroll px-6">

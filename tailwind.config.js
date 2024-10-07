@@ -11,7 +11,8 @@ export default {
       }, 
        colors: { 
          'primary': '#333333', 
-         'secodary': '#666666', 
+         'secodary': '#666666',  
+          'third':'#F9F1E7',
          'brand': '#B88E2F', 
        }
     }, 
